@@ -49,8 +49,25 @@
 ### 🔴 长期愿景
 - [ ] **程序化火山地貌**：结合材质位移与噪声，实现动态隆起的火山口资产。
 
+## 📅 Project Roadmap
+
+### 🟢 Short-term: Dynamic Environment & Polish
+- [ ] **Lava Flow System (Noise)**: Integrate Perlin/Simplex noise to create a "breathing" effect for the blue volcanic glow.
+- [ ] **Fresnel Effect**: Implement a Fresnel-based rim light to enhance spatial depth and define the volcano's inner silhouettes.
+- [ ] **Technical Breakdown**: Create a side-by-side visual comparison between Lambert and Half-Lambert models for documentation.
+
+### 🟡 Mid-term: Space Transformations & Tools
+- [ ] **Matrix-based UV Manipulation**: Implement custom UV rotation and distortion using $3 \times 3$ transformation matrices instead of standard engine nodes.
+- [ ] **Reusable Material Functions (MF)**: Abstract the Half-Lambert logic into a standalone Material Function to optimize project-wide workflow.
+- [ ] **Performance Profiling**: Analyze shader instruction counts and GPU cycles to ensure the custom lighting is production-ready.
+
+### 🔴 Long-term: Proceduralism & Beyond
+- [ ] **Procedural Terrain Displacement**: Use heightmaps and noise-driven displacement to create a dynamic, erupting volcanic landscape.
+- [ ] **Global Tech Art Log**: Maintain a bilingual (EN/JP) devlog documenting complex bug fixes and rendering breakthroughs.
 ---
 
 ## 🤝 关于作者
 一名正在向独立 TA 进化的开发者。
 **“记录一下成为更好的自己”**
+**"I wish myself more better"**
+**"より良い自分になる"**
